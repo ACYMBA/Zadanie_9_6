@@ -1,0 +1,19 @@
+{
+  "name": "kodilla-zadanie_9_6",
+  "version": "1.0.0",
+  "description": "Examp zad96",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test-kodilla"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Albert",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
