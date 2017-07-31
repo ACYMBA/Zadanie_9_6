@@ -1,6 +1,3 @@
-function checkOnclickEvent(param) {
-  console.log(param);
-}
 var addElem = document.getElementById('addElem');
 var list = document.getElementById('list');
 
@@ -8,16 +5,9 @@ addElem.addEventListener('click', function(e) {
   var element = document.createElement('li');
   var itemsByTagName = document.getElementsByTagName('li');
   var i = itemsByTagName.length;
-  if ( i <= 1 ){
-    var wynik = i; 
-    element.innerHTML = ('item '+ wynik);
-    list.appendChild(element); 
-  } else {
-  var wynik = (i)
-  console.log( wynik );
-  element.innerHTML = ('item '+ wynik);
+
+  element.innerHTML = ('item '+ i);
   list.appendChild(element); 
-  }
 });
 
 /*
